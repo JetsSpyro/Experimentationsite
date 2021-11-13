@@ -1,0 +1,60 @@
+
+
+body
+{
+	background: #191A19;
+    min-height: 200vh;
+	transition: .5s;
+}
+
+.header{
+	padding: 60px;
+    text-align: center;
+    background: #1E5128;
+    color: white;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 8px;
+    text-align: center;
+}
+
+.themeContainer{
+ position: fixed;
+ top: 6;
+}
+
+.theme{
+ height: 50px;
+ width: 50px;
+ cursor: pointer;
+ border-radius: 30px;
+ padding: 8px;
+ text-align: center;
+}
+
+#black {
+position: relative;
+top: 400px;
+left: 50px;
+background: #191A19;
+border: 2px solid white;
+}
+
+#green {
+position: relative;
+left: 187.5px;
+top: -10px;
+background: #D8E9A8;
+border: 2px solid white;
+}
+
+.blackTheme{
+background: #191A19;
+color: #D8E9A8;
+}
+
+.greenTheme{
+background: #D8E9A8;
+color: #191A19;
+}
+
