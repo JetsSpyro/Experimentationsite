@@ -8,11 +8,11 @@ body
 }
 :root {
     background: #191A19;
-    --colorShadeA: rgb(106, 163, 137);
-    --colorShadeB: rgb(121, 186, 156);
-    --colorShadeC: rgb(150, 232, 195);
-    --colorShadeD: rgb(187, 232, 211);
-    --colorShadeE: rgb(205, 255, 232);
+    --colorShadeA: #2b7439;
+    --colorShadeB: #8abea6;
+    --colorShadeC: #8eb9a5;
+    --colorShadeD: #cde9dc;
+    --colorShadeE: #bfd4cb;
   }
   
   @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
@@ -85,14 +85,20 @@ body
   }
 
 .header{
-	padding: 60px;
+	padding: 50px;
     text-align: center;
-    background: #1E5128;
+    background: #1E5128 ;
     color: white;
     font-size: 30px;
-    border-radius: 30px;
+    border-radius: 40px;
     padding: 8px;
     text-align: center;
+    box-shadow:
+    inset 20px 0 80px #191A19,
+    inset 20px 0 300px #1E5128,
+    -3px 0 5px #1E5128,
+    5px 0 5px #1E5128;
+    
 }
 
 .themeContainer{
@@ -114,7 +120,7 @@ position: relative;
 top: 400px;
 left: 50px;
 background: #191A19;
-border: 2px solid white;
+border: -10px solid white;
 }
 
 #green {
