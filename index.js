@@ -1,6 +1,13 @@
 
 const theme = document.querySelectorAll('.theme');
-const Themebtn = document.querySelector('#Themebtn')
+const bigbutton = document.querySelector('.bigbutton')
+var delayInMilliseconds = 500;
+
+bigbutton.addEventListener('click', (e) => {
+    setTimeout(function() {
+        onclick(window.location='theme.html')
+      }, delayInMilliseconds);
+  })
 
 theme.forEach((item) =>
 item.addEventListener("click", (e) => {
@@ -18,8 +25,4 @@ item.addEventListener("click", (e) => {
   }
 })
 );
-
-Themebtn.addEventListener('click', (e) => {
-    onclick(window.location='theme.html')
-  })
 
