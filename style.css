@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
 
 body
 {
@@ -6,16 +6,34 @@ body
     min-height: 200vh;
 	transition: .5s;
 }
+
+h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+}
+
+h3{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 :root {
     background: #191A19;
     --colorShadeA: #2b7439;
     --colorShadeB: #8abea6;
-    --colorShadeC: #8eb9a5;
-    --colorShadeD: #cde9dc;
+    --colorShadeC: #bad8c4;
+    --colorShadeD: #defcee;
     --colorShadeE: #bfd4cb;
   }
   
-  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
   * {
     box-sizing: border-box;
   }
