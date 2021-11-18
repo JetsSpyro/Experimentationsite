@@ -3,13 +3,24 @@ const theme = document.querySelectorAll('.theme');
 const bigbutton = document.querySelector('.bigbutton')
 var delayInMilliseconds = 500;
 
+
+//code pour le gros bouton
 bigbutton.addEventListener('click', (e) => {
     setTimeout(function() {
         onclick(window.location='theme.html')
       }, delayInMilliseconds);
-  })
+})
 
-theme.forEach((item) =>
+
+
+
+
+
+
+
+
+//code pour les thème
+  theme.forEach((item) =>
 item.addEventListener("click", (e) => {
   console.log('yes');
   document.body.classList.remove('blackTheme', 'greenTheme')
