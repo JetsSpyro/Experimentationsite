@@ -7,16 +7,10 @@ var delayInMilliseconds = 500;
 //code pour le premier bouton
 bigbutton.addEventListener('click', (e) => {
     setTimeout(function() {
-        onclick(window.location='theme.html')
+        onclick(window.location='explication.html')
       }, delayInMilliseconds);
 })
 
-//code pour le deuxieme bouton
-secondbutton.addEventListener('click', (e) => {
-    setTimeout(function() {
-      onclick(window.location='minuteur.html')
-    }, delayInMilliseconds);
-})
 
 
 
