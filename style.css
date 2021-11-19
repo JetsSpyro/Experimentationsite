@@ -55,6 +55,11 @@ h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+p{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .fleche{
   animation-name: fleche;
   animation-duration: 2s;
