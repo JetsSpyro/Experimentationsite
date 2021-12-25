@@ -1,0 +1,139 @@
+/* coding with nick */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+*{
+    box-sizing: border-box;
+}
+
+.answer{
+
+  }
+html {
+    height:  100%;
+  }
+
+
+body
+{
+	background: #191A19;
+    min-height: 200vh;
+	transition: .5s;
+    min-height: 45%;
+}
+
+
+
+.quiz-container{
+	padding: 50px;
+    text-align: center;
+    background: #1E5128 ;
+    color: white;
+    font-size: 30px;
+    border-radius: 40px;
+    padding: 8px;
+    text-align: center;
+    box-shadow:
+    inset 20px 0 80px #191A19,
+    inset 20px 0 300px #1E5128,
+    -3px 0 5px #1E5128,
+    5px 0 5px #1E5128;
+ 
+}
+.quiz-header{
+  padding: 4rem;
+}
+h2{
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  
+}
+ul li{
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  padding: 30px;
+    text-align: center;
+    background: #1E5128 ;
+    color: white;
+    border: solid 0.1px white;
+    font-size: 30px;
+    border-radius: 40px;
+    padding: 8px;
+    text-align: center;
+    box-shadow:
+    inset 20px 0 80px #191A19,
+    inset 20px 0 300px #1E5128,
+    5px 0 5px #1E5128;
+  
+}
+ul li:hover{
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    padding: 60px;
+      text-align: center;
+      background: #1E5128 ;
+      color: white;
+      border: solid 0.1px white;
+      font-size: 30px;
+      border-radius: 40px;
+      padding: 8px;
+      text-align: center;
+      box-shadow:
+      inset 20px 0 80px #050c05,
+      inset 20px 0 300px #1E5128,
+      0px 0 5px #b7ffc5,
+      5px 0 5px #1E5128;
+    
+  }
+
+
+ul li label{
+  cursor: pointer;
+}
+button{
+	padding: 50px;
+    text-align: center;
+    background: #1E5128 ;
+    color: white;
+    border: 1px solid white;
+    font-size: 30px;
+    border-radius: 40px;
+    padding: 8px;
+    text-align: center;
+    box-shadow:
+    inset 20px 0 80px #191A19,
+    inset 20px 0 300px #1E5128,
+    5px 0 5px #1E5128;
+ 
+}
+button:hover{
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    padding: 60px;
+      text-align: center;
+      background: #1E5128 ;
+      color: white;
+      border: solid 0.1px white;
+      font-size: 30px;
+      border-radius: 40px;
+      padding: 8px;
+      text-align: center;
+      box-shadow:
+      inset 20px 0 80px #050c05,
+      inset 20px 0 300px #1E5128,
+      0px 0 5px #b7ffc5,
+      5px 0 5px #1E5128;
+    ,
+}
+button:focus{
+  outline: none;
+  box-shadow:  0 7px #ffffff,
+  background-color: #fafafa;
+}
