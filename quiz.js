@@ -91,10 +91,27 @@ submitBtn.addEventListener('click', () => {
            loadQuiz()
        } else {
            quiz.innerHTML = `
-           <h2>You answered ${score}/${quizData.length} questions correctly</h2>
+           <h2>Tu a Répondu </h2>
+           <h5 class="résultat" >${score}/${quizData.length}</h5>
+           <h2>questions correctement</h2>
 
-           <button onclick="location.reload()">Reload</button>
+           <p> maintenant que vous aviez terminer, entrez votre age ainsi que votre résultat
+           ci-dessous</p>
+
+
+           
+           <form action="https://formsubmit.co/exposcienceyacine@gmail.com" method="POST">
+           <input type="hidden" name="_captcha" value="false">
+           <input type="hidden" name="_subject" value="Vous Avez recut un nouvelle Email">
+           <input type="hidden" name="_next" value="https://jetsspyro.github.io/Experimentationsite/Merci.html">   
+           <input class="input" type="text" name="name" placeholder="Écrit ton résultat ici!" required> <br> <br>
+           <button type="submit">Envoyer</button>
+           <link rel="stylesheet" href="stylequiz.css">
+          </form>
+
+           
            `
+           
        }
     }
 })
